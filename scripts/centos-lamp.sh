@@ -26,3 +26,6 @@ mysql -u root -e "SHOW DATABASES";
 
 service httpd restart
 
+cd /vagrant
+sudo -u vagrant wget -q https://raw.githubusercontent.com/longislandjoe/vagrant/master/files/index.html
+sudo -u vagrant wget -q https://raw.githubusercontent.com/longislandjoe/vagrant/master/files/info.php
